@@ -108,6 +108,12 @@ header .contenido{
     justify-content: space-between;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
 .menu {
     list-style: none;
     display: flex;
@@ -118,8 +124,6 @@ header .contenido{
 .menu li {
     align-self: center;
 }
-
-
 
 /* AWESOME SITE SECTION */
 
