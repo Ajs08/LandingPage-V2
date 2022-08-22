@@ -117,7 +117,7 @@ header .contenido{
 .menu {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 20px;
     padding: 5px;
 }
 
@@ -263,6 +263,10 @@ footer .contenido {
 }
 
 @media (min-width: 700px){
+    .menu {
+        gap: 30px;
+    }
+
     .ventanadoble {
         flex-direction: row;
     }
